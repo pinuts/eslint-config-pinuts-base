@@ -1,0 +1,17 @@
+{
+    "name": "@pinuts/eslint-config-pinuts-base",
+    "version": "1.0.0",
+    "license": "UNLICENSED",
+    "repository": "pinuts/eslint-config-pinuts-base",
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "scripts": {
+        "lint": "eslint ."
+    },
+    "devDependencies": {},
+    "dependencies": {
+        "eslint": "^5.15.3"
+    }
+}
