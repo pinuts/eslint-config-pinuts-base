@@ -1,6 +1,6 @@
 {
     "name": "@pinuts/eslint-config-pinuts-base",
-    "version": "0.8.0",
+    "version": "0.9.0",
     "license": "UNLICENSED",
     "repository": "pinuts/eslint-config-pinuts-base",
     "main": "index.js",
