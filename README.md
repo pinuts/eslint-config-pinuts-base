@@ -6,7 +6,7 @@ Common Eslint config for our Javascript.
 ```
 module.exports = {
     extends: [
-        'eslint:pinuts/base'
+        '@pinuts/eslint-config-pinuts-base'
     ]
 };
 ```
