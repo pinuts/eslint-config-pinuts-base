@@ -1,7 +1,7 @@
 {
     "name": "@pinuts/eslint-config-pinuts-base",
     "version": "0.9.1",
-    "license": "UNLICENSED",
+    "license": "MIT",
     "repository": "pinuts/eslint-config-pinuts-base",
     "main": "index.js",
     "files": [
