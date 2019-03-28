@@ -1,6 +1,6 @@
 {
     "name": "@pinuts/eslint-config-pinuts-base",
-    "version": "0.9.4",
+    "version": "0.9.5",
     "license": "MIT",
     "private": false,
     "repository": "pinuts/eslint-config-pinuts-base",
