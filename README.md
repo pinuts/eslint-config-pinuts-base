@@ -1,7 +1,14 @@
 # @pinuts/eslint-config-pinuts-base
 Common Eslint config for our Javascript.
 
-# Import in your project
+# Use in your project
+
+Install or update node package:
+```
+sudo npm i @pinuts/eslint-config-pinuts-base
+```
+
+Include in your `.eslintrc.js`:
 
 ```
 module.exports = {
