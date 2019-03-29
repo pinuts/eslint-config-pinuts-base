@@ -12,7 +12,7 @@
         "lint": "eslint ."
     },
     "devDependencies": {},
-    "dependencies": {
-        "eslint": "^5.15.3"
+    "peerDependencies": {
+        "eslint": ">=3.0.0"
     }
 }
