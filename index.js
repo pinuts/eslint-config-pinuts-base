@@ -34,7 +34,11 @@ module.exports = {
         'prefer-const': 'error',
         'prefer-destructuring': 'error',
         'quotes': ['error', 'single'],
+        
         'space-before-function-paren': ['error', {named: 'never', anonymous: 'never'}],
+        'keyword-spacing': ['error', {before: true, after: true}],
+        'comma-spacing': ['error'],
+        'key-spacing': ['error'],
         'no-mixed-spaces-and-tabs': 'error',
         'func-call-spacing': ['error', 'never'],
         'eol-last': ['error', 'always'],
