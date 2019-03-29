@@ -33,5 +33,6 @@ module.exports = {
         'prefer-const': 'error',
         'prefer-destructuring': 'error',
         quotes: ['error', 'single'],
+        'space-before-function-paren': ['error', {named: 'never', anonymous: 'never'}]
     },
 };
