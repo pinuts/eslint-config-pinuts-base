@@ -5,7 +5,7 @@ Common Eslint config for our Javascript.
 
 Install or update node package:
 ```
-sudo npm i @pinuts/eslint-config-pinuts-base
+(cd; sudo npm i @pinuts/eslint-config-pinuts-base)
 ```
 
 Include in your `.eslintrc.js`:
