@@ -1,22 +1,6 @@
 # @pinuts/eslint-config-pinuts-base
 Common Eslint config for our Javascript.
 
-# Use in your project
-
-Install or update node package:
-```
-(cd; sudo npm i @pinuts/eslint-config-pinuts-base)
-```
-
-Include in your `.eslintrc.js`:
-
-```
-module.exports = {
-    extends: [
-        '@pinuts/eslint-config-pinuts-base'
-    ]
-};
-```
 
 # Publish on npm
 
