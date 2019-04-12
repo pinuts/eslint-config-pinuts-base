@@ -19,9 +19,8 @@ module.exports = {
     rules: {
         'indent': ['error', 4, { SwitchCase: 1 }],
         'linebreak-style': ['error', 'unix'],
-        'no-console': 0,
+        'no-console': 'warning',
         'no-var': 'error',
-        'no-undef': 'error',
         'lines-between-class-members': ['error', 'always'],
         'padding-line-between-statements': [
             'error',
@@ -39,7 +38,6 @@ module.exports = {
         'keyword-spacing': ['error', {before: true, after: true}],
         'comma-spacing': ['error'],
         'key-spacing': ['error'],
-        'no-mixed-spaces-and-tabs': 'error',
         'func-call-spacing': ['error', 'never'],
         'eol-last': ['error', 'always'],
         'comma-style': ['error', 'last'],
