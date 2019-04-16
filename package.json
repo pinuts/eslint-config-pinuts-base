@@ -11,11 +11,11 @@
     "scripts": {
         "lint": "eslint ."
     },
-    "peerDependencies": {
-        "eslint": "",
-        "eslint-config-prettier": "",
-        "eslint-friendly-formatter": "",
-        "eslint-plugin-prettier": "",
-        "prettier": ""
+    "dependencies": {
+        "eslint": "^5.15.1",
+        "eslint-config-prettier": "^4.1.0",
+        "eslint-friendly-formatter": "^4.0.1",
+        "eslint-plugin-prettier": "^3.0.1",
+        "prettier": "^1.16.4"
     }
 }
