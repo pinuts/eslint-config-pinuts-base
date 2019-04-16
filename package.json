@@ -12,10 +12,10 @@
         "lint": "eslint ."
     },
     "peerDependencies": {
-        "eslint": "5.x",
-        "eslint-config-prettier": "4.x",
-        "eslint-friendly-formatter": "4.x",
-        "eslint-plugin-prettier": "3.x",
-        "prettier": "1.x"
+        "eslint": "",
+        "eslint-config-prettier": "",
+        "eslint-friendly-formatter": "",
+        "eslint-plugin-prettier": "",
+        "prettier": ""
     }
 }
