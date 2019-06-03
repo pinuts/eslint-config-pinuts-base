@@ -31,7 +31,6 @@ module.exports = {
             { blankLine: 'always', prev: '*', next: 'return' },
         ],
         'prefer-const': 'error',
-        'prefer-destructuring': 'error',
         'quotes': ['error', 'single'],
         
         'space-before-function-paren': ['error', {named: 'never', anonymous: 'never'}],
