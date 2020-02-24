@@ -23,7 +23,7 @@ module.exports = {
         'no-var': 'error',
         'lines-between-class-members': ['error', 'always'],
         'prefer-const': 'error',
-        'quotes': ['warning', 'single'],
+        'quotes': ['warning', 1],
         'space-before-function-paren': ['error', {named: 'never', anonymous: 'never'}],
         'keyword-spacing': ['error', {before: true, after: true}],
         'comma-spacing': ['error'],
