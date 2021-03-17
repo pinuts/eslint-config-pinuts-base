@@ -13,6 +13,7 @@ module.exports = {
             jsx: true,
             modules: true,
         },
+        ecmaVersion: 11,
         sourceType: 'module',
     },
     ignorePatterns: ['**/*.attributes', '**/*.png'],
