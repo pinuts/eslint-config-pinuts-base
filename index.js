@@ -5,14 +5,15 @@ module.exports = {
         node: true,
     },
     extends: [
-        'eslint:recommended'
+        'eslint:recommended',
+        'plugin:json/recommended',
     ],
     parserOptions: {
         ecmaFeatures: {
             jsx: true,
             modules: true,
         },
-        ecmaVersion: 6,
+        ecmaVersion: 11,
         sourceType: 'module',
     },
     root: true,
@@ -31,6 +32,8 @@ module.exports = {
         'func-call-spacing': ['error', 'never'],
         'eol-last': ['error', 'always'],
         'comma-style': ['error', 'last'],
-        'brace-style': ['error', '1tbs']
+        'brace-style': ['error', '1tbs'],
+        'no-prototype-builtins': 'off',
+        'no-control-regex': 'off',
     },
 };
