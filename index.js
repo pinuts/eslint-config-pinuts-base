@@ -16,7 +16,6 @@ module.exports = {
         ecmaVersion: 11,
         sourceType: 'module',
     },
-    ignorePatterns: ['**/*.attributes', '**/*.png'],
     root: true,
     rules: {
         'indent': ['error', 4, { SwitchCase: 1 }],
