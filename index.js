@@ -5,16 +5,18 @@ module.exports = {
         node: true,
     },
     extends: [
-        'eslint:recommended'
+        'eslint:recommended',
+        'plugin:json/recommended',
     ],
     parserOptions: {
         ecmaFeatures: {
             jsx: true,
             modules: true,
         },
-        ecmaVersion: 6,
+        ecmaVersion: 11,
         sourceType: 'module',
     },
+    ignorePatterns: ['**/*.attributes', '**/*.png'],
     root: true,
     rules: {
         'indent': ['error', 4, { SwitchCase: 1 }],
@@ -24,13 +26,15 @@ module.exports = {
         'lines-between-class-members': ['error', 'always'],
         'prefer-const': 'error',
         'quotes': [1, 'single'],
-        'space-before-function-paren': ['error', {named: 'never', anonymous: 'never'}],
+        'space-before-function-parent': ['error', {named: 'never', anonymous: 'never'}],
         'keyword-spacing': ['error', {before: true, after: true}],
         'comma-spacing': ['error'],
         'key-spacing': ['error'],
         'func-call-spacing': ['error', 'never'],
         'eol-last': ['error', 'always'],
         'comma-style': ['error', 'last'],
-        'brace-style': ['error', '1tbs']
+        'brace-style': ['error', '1tbs'],
+        'no-prototype-builtins': 'off',
+        'no-control-regex': 'off',
     },
 };
